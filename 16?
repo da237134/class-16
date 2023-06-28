@@ -1,0 +1,19 @@
+from tkinter import *
+from PIL import ImageTK, Image
+
+root= Tk()
+roott.title("Working On Canvas U sing Functions")
+root.geometry("600x600")
+
+
+color_label=Label(root, text="Enter a Color :")
+color_label.place(relx=0.8,rely0.9, anchor= CENTER)
+
+input_box = Entry(root)
+input_box.insert(0,"black)
+input_box.place(relx=0.8,rely0.9, anchor= CENTER)
+
+
+
+
+canvas=Canvas(root
